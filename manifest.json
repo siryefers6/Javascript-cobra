@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Funciones javaScript",
+  "version": "1.0",
+  "description": "automatiza packing",
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": [
+        "https://cobra.prisa.cl/*"
+      ]
+    }
+  ]
+}
